@@ -8,9 +8,6 @@ export default function Icon() {
     (
       <div
         style={{
-          fontSize: 22,
-          fontWeight: 700,
-          color: "white",
           width: "100%",
           height: "100%",
           display: "flex",
@@ -20,7 +17,19 @@ export default function Icon() {
           borderRadius: 7,
         }}
       >
-        S
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="white"
+          strokeWidth="2.4"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        >
+          <path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0 0 4h15a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5" />
+          <path d="M16 14h.01" />
+        </svg>
       </div>
     ),
     { ...size }
