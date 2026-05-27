@@ -145,9 +145,9 @@ export default function TransactionForm({ onSuccess }: TransactionFormProps) {
             </label>
             <input
               type="number"
-              min="0.01"
-              step="0.01"
-              placeholder="0.00"
+              min="1"
+              step="1"
+              placeholder="0"
               value={form.amount}
               onChange={(e) => setForm((p) => ({ ...p, amount: e.target.value }))}
               className="w-full rounded-xl border border-gray-200 px-4 py-2.5 text-sm text-gray-800 outline-none transition focus:border-indigo-400 focus:ring-2 focus:ring-indigo-100"

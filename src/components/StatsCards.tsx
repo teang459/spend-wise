@@ -12,8 +12,8 @@ interface Stats {
 function formatCurrency(amount: number) {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
-    maximumFractionDigits: 2,
+    currency: "LAK",
+    maximumFractionDigits: 0,
   }).format(amount);
 }
 

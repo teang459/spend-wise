@@ -26,7 +26,7 @@ const BAR_COLORS = [
 function formatCurrency(amount: number) {
   return new Intl.NumberFormat("en-US", {
     style: "currency",
-    currency: "USD",
+    currency: "LAK",
     maximumFractionDigits: 0,
   }).format(amount);
 }
